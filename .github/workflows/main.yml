@@ -24,6 +24,9 @@ jobs:
       - name: Run RequireJS optimizer
         run: r.js -o build.js
 
+      - name: Copy index.html to build directory
+        run: cp index.html build/scripts/index.html
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
