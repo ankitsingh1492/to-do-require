@@ -4,5 +4,5 @@
     text: "scripts/text",
   },
   name: "scripts/main",
-  out: "scripts/main-built.js",
+  out: "build/scripts/main-built.js",
 });
