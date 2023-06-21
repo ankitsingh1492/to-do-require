@@ -1,6 +1,6 @@
 require([
-  "text!../templates/header.html",
-  "text!../templates/footer.html",
+  "text!templates/header.html",
+  "text!templates/footer.html",
   "app",
 ], function (headerTemplate, footerTemplate, app) {
   document.body.insertAdjacentHTML("afterbegin", headerTemplate);

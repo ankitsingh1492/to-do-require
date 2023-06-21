@@ -1,4 +1,4 @@
-define(["text!../templates/todo.html"], function (todoTemplate) {
+define(["text!templates/todo.html"], function (todoTemplate) {
   var addTodo = function (text) {
     var todoElement = document.createElement("div");
     todoElement.innerHTML = todoTemplate;
