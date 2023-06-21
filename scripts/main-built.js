@@ -475,7 +475,7 @@ define('text',["module"], function (module) {
 define('text!templates/header.html',[],function () { return '<header>\n    <h1>My To-Do App</h1>\n    <form id="todo-form">\n        <input type="text" id="todo-input" placeholder="What needs to be done?" />\n        <button type="submit">Add</button>\n    </form>\n</header>\n';});
 
 
-define('text!templates/footer.html',[],function () { return '<header>\n    <h1>Ankit basic app footer</h1>\n</header>\n';});
+define('text!templates/footer.html',[],function () { return '<header>\n    <h1>Basic app footer</h1>\n</header>\n';});
 
 
 define('text!templates/todo.html',[],function () { return '<div class="todo-item">\n    <p class="todo-text"></p>\n</div>\n';});
