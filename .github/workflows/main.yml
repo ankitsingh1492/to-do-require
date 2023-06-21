@@ -24,6 +24,9 @@ jobs:
       - name: Run RequireJS optimizer
         run: r.js -o build.js
 
+      - name: Copy require.js to build directory
+        run: cp scripts/require.js build/scripts/require.js
+
       - name: Copy index.html to build directory
         run: cp index.html build/index.html
 
